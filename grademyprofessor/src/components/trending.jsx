@@ -17,7 +17,7 @@ export class Trending extends Component {
   }
 
   async fetchTrending() {
-    await axios.get(`${baseURL}/trending/`).then((res) => {
+    await axios.get(`${baseURL}/trending`).then((res) => {
       this.setState({ trending: res.data.trending });
     });
   }
