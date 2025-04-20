@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export default async function handler(req, res) {
-  const path = req.url.replace('/api', ''); // removes '/api' from the path
+  const path = req.url.split('/api')[1]; // removes '/api' from the path
   const url = `https://api.gritview.io${path}`;
 
   try {
@@ -13,6 +13,7 @@ export default async function handler(req, res) {
       },
       data: req.body,
     });
+
     res.status(response.status).json(response.data);
   } catch (error) {
     console.error('Proxy error:', error.message);
