@@ -44,9 +44,9 @@ export class Trending extends Component {
                 }
                 value={
                   trend.instructor_name !== undefined
-                    ? trend.review_count
-                    : trend.credits
-                }
+                    ? (trend.review_count ?? 0)
+                    : (trend.credits ?? 0)
+                }                
                 label={
                   trend.instructor_name !== undefined ? "Ratings" : "Credits"
                 }
