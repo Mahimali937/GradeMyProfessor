@@ -2,6 +2,13 @@
 
 This project is a comprehensive course & professor evaluation platform built for **CUNY Hunter College**, helping 10,000+ students make data‑driven decisions.
 
+## 🧠 The Team:
+
+| Member    | Position                           | Responsibilities     |
+| --------- | ---------------------------------- | -------------------- |
+| **Krish** | Full Stack + API Development       | Backend Architecture |
+| **Mahim** | Full Stack + Authentication System | Database Schema      |
+
 ## Visit The Site
 
 Feel free to check out the [project here!](https://grademyprofessor.vercel.app/)
