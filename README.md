@@ -4,10 +4,10 @@ This project is a comprehensive course & professor evaluation platform built for
 
 ## 🧠 The Team:
 
-| Member    | Position                           | Responsibilities     |
-| --------- | ---------------------------------- | -------------------- |
-| **Krish** | Full Stack + API Development       | Backend Architecture |
-| **Mahim** | Full Stack + Authentication System | Database Schema      |
+| Member    | Position   | Responsibilities                       |
+| --------- | ---------- | -------------------------------------- |
+| **Krish** | Full Stack | API Development, Backend Architecture  |
+| **Mahim** | Full Stack | Authentication System, Database Schema |
 
 ## Visit The Site
 
