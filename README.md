@@ -1,8 +1,8 @@
 # GradeMyProfessor
 
-This project is a comprehensive course & professor evaluation platform built for **CUNY Hunter College**, helping 10,000+ students make data‑driven decisions.
+This project is a course and professor evaluation platform built for CUNY Hunter College, helping 1,000+ students access in-depth grade distributions, performance trends, and student feedback to make data-driven academic decisions.
 
-## 🧠 The Team:
+## The Team:
 
 | Member    | Position   | Responsibilities                       |
 | --------- | ---------- | -------------------------------------- |
@@ -15,23 +15,30 @@ Feel free to check out the [project here!](https://grademyprofessor.vercel.app/)
 
 <img width="1437" alt="Screenshot 2025-04-20 at 5 14 25 PM" src="https://github.com/user-attachments/assets/43fab214-a4bf-455a-b680-39ca695b3bd5" />
 
-## Features
+## Key Features
 
-- **PostgreSQL Database**
+- **Course Analytics (Most Popular Feature)**
 
-  - Stores detailed information about course offerings, grade distributions, professor ratings, and evaluation comments.
+  - Interactive charts showing how grades and evaluations have changed over time for each course and professor. This data-driven insight is what sets GradeMyProfessor apart from platforms like RateMyProfessor — it's the #1 reason students use the platform.
 
-- **Django REST Backend**
+- **Course and Professor Search**
 
-  - Exposes CRUD endpoints for professors, courses, and evaluations
-  - In-house authentication & review system
-  - Packaged with Docker for easy deployment
+  - Instantly look up courses, instructors, and grade distributions.
 
-- **ReactJS Frontend**
+- **Review System**
 
-  - Search professors by name, department, or course
-  - View aggregated rating metrics and grade histograms
-  - Add, edit, and delete evaluation entries (authenticated users)
+  - Leave and read student-written feedback specific to Hunter courses and professors.
+
+- **Custom Authentication**
+
+  - Secure login system supporting different user roles (students, admins).
+
+## Tech Stack
+
+- **Backend**: Django
+- **Frontend**: React
+- **Database**: PostgreSQL
+- **Deployment**: Docker
 
 ---
 
