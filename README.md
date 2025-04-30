@@ -1,6 +1,6 @@
 # GradeMyProfessor
 
-This project is a course and professor evaluation platform built for CUNY Hunter College, helping 1,000+ students access in-depth grade distributions, performance trends, and student feedback to make data-driven academic decisions.
+This project is a course and professor evaluation platform built for CUNY Hunter College, helping 1,000+ students access **in-depth grade distributions**, performance trends, and student feedback to make data-driven academic decisions.
 
 ## The Team:
 
@@ -17,7 +17,7 @@ Feel free to check out the [project here!](https://grademyprofessor.vercel.app/)
 
 ## Key Features
 
-- **Course Analytics (Most Popular Feature)**
+- **🔥 Course Analytics (Most Popular Feature)**
 
   - Interactive charts showing how grades and evaluations have changed over time for each course and professor. This data-driven insight is what sets GradeMyProfessor apart from platforms like RateMyProfessor — it's the #1 reason students use the platform.
 
